@@ -1,0 +1,5 @@
+{
+  "watch": ["src"],
+  "ext": "*",
+  "exec": "yarn build:clean && yarn build && yarn start"
+}
