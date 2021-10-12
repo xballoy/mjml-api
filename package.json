@@ -13,7 +13,7 @@
     "dev": "nodemon",
     "test": "jest",
     "test:coverage": "jest --coverage",
-    "check": "yarn format:check && yarn lint:check",
+    "lint": "yarn format:check && yarn lint:check",
     "format:check": "prettier --check src",
     "format:fix": "prettier --write src",
     "lint:check": "eslint src --cache",
