@@ -5,5 +5,5 @@
     "resolveJsonModule": true
   },
   "include": ["src/**/*"],
-  "exclude": ["**/*.spec.*", "**/*.test.*", "**/mocks/*"]
+  "exclude": ["**/*.spec.*", "**/*.mock.*"]
 }

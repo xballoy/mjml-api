@@ -9,7 +9,7 @@ server.register(routes);
 
 const start = async () => {
   try {
-    await server.listen(3000);
+    await server.listen(process.env.PORT || 3000);
   } catch (err) {
     server.log.error(err);
     process.exit(1);
