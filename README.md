@@ -31,6 +31,14 @@ Render a MJML template
 POST http://localhost:3000/render
 ```
 
+```shell
+curl --location --request POST 'http://localhost:3000/render' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "mjml":"<mjml><mj-body><mj-section><mj-column><mj-text>Hello World!</mj-text></mj-column></mj-section></mj-body></mjml>"
+}'
+```
+
 **Parameters**
 
 - **mjml** (required): the MJML markup to transpile to HTML.
