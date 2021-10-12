@@ -23,7 +23,7 @@
     "@sinclair/typebox": "0.20.5",
     "@types/mjml": "4.7.0",
     "fastify": "3.22.0",
-    "mjml": "4.10.3"
+    "mjml": "4.10.4"
   },
   "devDependencies": {
     "@jest/types": "27.2.4",
