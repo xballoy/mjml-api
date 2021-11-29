@@ -57,6 +57,10 @@ curl --location --request POST 'http://localhost:3000/render' \
 }
 ```
 
+## Version
+
+The version number are aligned with [mjml](https://github.com/mjmlio/mjml).
+
 ## License
 
 This project is licenced under [MIT License](./LICENSE.md).
