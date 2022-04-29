@@ -20,7 +20,7 @@
     "lint:fix": "eslint src --cache --fix"
   },
   "dependencies": {
-    "@sinclair/typebox": "0.23.4",
+    "@sinclair/typebox": "0.23.5",
     "@types/mjml": "4.7.0",
     "fastify": "3.29.0",
     "mjml": "4.12.0"
