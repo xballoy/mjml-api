@@ -20,22 +20,22 @@
     "lint:fix": "eslint src --cache --fix"
   },
   "dependencies": {
-    "@sinclair/typebox": "0.24.7",
+    "@sinclair/typebox": "0.24.16",
     "@types/mjml": "4.7.0",
     "fastify": "4.2.0",
-    "mjml": "4.12.0"
+    "mjml": "4.13.0"
   },
   "devDependencies": {
     "@jest/types": "28.1.1",
     "@tsconfig/node14": "1.0.3",
     "@types/jest": "28.1.4",
     "@types/node": "18.0.0",
-    "@typescript-eslint/eslint-plugin": "5.30.4",
-    "@typescript-eslint/parser": "5.30.4",
+    "@typescript-eslint/eslint-plugin": "5.30.5",
+    "@typescript-eslint/parser": "5.30.5",
     "eslint": "8.19.0",
     "jest": "28.1.2",
     "jest-environment-jsdom": "28.1.2",
-    "nodemon": "2.0.18",
+    "nodemon": "2.0.19",
     "prettier": "2.7.1",
     "rimraf": "3.0.2",
     "ts-jest": "28.0.5",
